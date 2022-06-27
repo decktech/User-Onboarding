@@ -62,6 +62,7 @@ export default function Form(props) {
                 </label>
                 <input 
                     disabled={disabled}
+                    name="submit"
                     type="submit"
                     value="create friend"
                 />
